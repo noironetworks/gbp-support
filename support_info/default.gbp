@@ -1,0 +1,9 @@
+#Default support information file for GBP
+
+#operation options arguments
+copy	recursive			/var/log/neutron
+copy	recursive			/etc/neutron
+copy	-				/etc/resolv.conf
+exec	-				ip addr
+exec	-				ip route
+exec	-				netstat -an
